@@ -16,7 +16,7 @@ class Command {
     vector<string> commandsList;
     map<string, Command> commandMap;
 public:
-    Command(vector<string> commandsList, map<string, Command> commandMap);
+    Command(vector<string> commandsList, map<string, Command> commandMap);//bat el hayafa
     int execute();
     void doCommand(string Command);
     vector<string> lexer(string str);
