@@ -4,6 +4,9 @@
 
 #include "While.h"
 
-//While::While() {
-//
-//}
+While::While() {
+
+}
+
+int While::execute() {}
+void While::doCommand(string command) {}

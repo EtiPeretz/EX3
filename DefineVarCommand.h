@@ -10,5 +10,7 @@
 class DefineVarCommand : public Command {
 public:
     DefineVarCommand();
+    virtual int execute();
+    virtual void doCommand(string command);
 };
 #endif //UNTITLED6_DEFIVEVARCOMMAND_H

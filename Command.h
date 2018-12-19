@@ -14,11 +14,11 @@ using namespace std;
 
 class Command {
     vector<string> commandsList;
-    map<string, Command> commandsMap;
+    map<string, Command> commandMap;
 public:
-    Command(vector<string> commandsList, map<string, Command> commandsMap);
-    int execute(string );
-    //doCommand(string[] arrOfStrings);
+    Command(vector<string> commandsList, map<string, Command> commandMap);
+    int execute();
+    void doCommand(string Command);
     vector<string> lexer(string str);
     void parser(vector<string> commandsVec);
 };

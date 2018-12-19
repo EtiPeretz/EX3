@@ -11,5 +11,7 @@ class Bind : public Command {
 
 public:
     Bind();
+    virtual int execute();
+    virtual void doCommand(string command);
 };
 #endif //UNTITLED6_BIND_H

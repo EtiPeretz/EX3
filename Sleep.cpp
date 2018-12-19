@@ -3,6 +3,10 @@
 //
 
 #include "Sleep.h"
-//Sleep::Sleep() {
-//
-//}
+
+Sleep::Sleep() {
+
+}
+
+int Sleep::execute() {}
+void Sleep::doCommand(string command) {}

@@ -10,5 +10,7 @@
 class ConnectCommand : public Command {
 public:
     ConnectCommand();
+    virtual int execute();
+    virtual void doCommand(string command);
 };
 #endif //UNTITLED6_CONNECTCOMMAND_H

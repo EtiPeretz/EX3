@@ -9,6 +9,8 @@
 
 class While : public Command {
 public:
-
+    While();
+    virtual int execute();
+    virtual void doCommand(string command);
 };
 #endif //UNTITLED6_WHILE_H

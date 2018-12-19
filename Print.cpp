@@ -4,6 +4,9 @@
 
 #include "Print.h"
 
-//Print::Print() {
-//
-//}
+Print::Print() {
+
+}
+
+int Print::execute() {}
+void Print::doCommand(string command) {}

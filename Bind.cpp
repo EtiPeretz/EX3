@@ -4,6 +4,9 @@
 
 #include "Bind.h"
 
-//Bind::Bind() {
-//
-//}
+Bind::Bind() {
+
+}
+
+int Bind::execute() {}
+void Bind::doCommand(string command) {}

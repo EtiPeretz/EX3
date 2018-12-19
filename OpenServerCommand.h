@@ -7,8 +7,10 @@
 
 #include "Command.h"
 
-class OpenSeverCommand : public Command {
+class OpenServerCommand : public Command {
 public:
-    OpenSeverCommand();
+    OpenServerCommand();
+    virtual int execute();
+    virtual void doCommand(string command);
 };
 #endif //UNTITLED6_OPEVSEVERCOMMAND_H

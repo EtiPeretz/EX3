@@ -4,6 +4,9 @@
 
 #include "ConnectCommand.h"
 
-//ConnectCommand::ConnectCommand() {
-//
-//};
+ConnectCommand::ConnectCommand() {
+
+}
+
+int ConnectCommand::execute() {}
+void ConnectCommand::doCommand(string command) {}
